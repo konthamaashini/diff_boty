@@ -1,0 +1,19 @@
+<?xml version="1.6" ?>
+<sdf version="1.6">
+  <world name="default">
+    <!-- Basic lighting and physics -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Include your robot model -->
+<include>
+  <uri>model://robot</uri>
+  <pose>0 0 0.1 0 0 0</pose>
+</include>
+
+  </world>
+</sdf>
